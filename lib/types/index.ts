@@ -1,6 +1,6 @@
 export type Dict = { [key: string]: any }
 export type Money = {
-    value: string;
+    value: string | number;
     currency: 'INR';
 }
 export interface UserInfo {
