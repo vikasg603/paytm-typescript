@@ -15,7 +15,7 @@ interface PaytmParams {
 
 class Paytm {
 	static VERSION = npmPackage.version || '1.0.0';
-	static PACKAGE_NAME = npmPackage.name || 'razorpay-node-typescript';
+	static PACKAGE_NAME = npmPackage.name || 'paytm-node-typescript';
 	payments: ReturnType<typeof payments>;
 
 	constructor (options: PaytmParams) {

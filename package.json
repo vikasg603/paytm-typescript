@@ -1,10 +1,10 @@
 {
-  "name": "paytm-typescript",
+  "name": "paytm-node-typescript",
   "version": "1.0.0",
   "description": "",
   "main": "dist/paytm.js",
   "scripts": {
-    "prepublish": "npm test",
+    "prepublish": "npm build",
     "build": "tsc",
     "test": "tsc && mocha ./test/**/*.spec.js"
   },
