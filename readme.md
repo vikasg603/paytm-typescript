@@ -3,9 +3,9 @@
 
 [![npm](https://img.shields.io/npm/v/paytm-node-typescript.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/paytm-node-typescript)
 
-Unofficial nodejs library for [Paytm API](https://docs.razorpay.com/docs/payments) with typescript support.
+Unofficial nodejs library for [Paytm API](https://developer.paytm.com/docs) with typescript support.
 
-Read up here for getting started and understanding the payment flow with Razorpay: [https://docs.razorpay.com/docs/getting-started](https://developer.paytm.com/docs)
+Read up here for getting started and understanding the payment flow with Paytm: [https://developer.paytm.com/docs](https://developer.paytm.com/docs)
 
 ## Why this library?
 
@@ -31,7 +31,7 @@ Documentation of Paytm's API and their usage is available at [https://developer.
 Instantiate the paytm instance with `mid`, `key`, `isProduction` & `callbackUrl`. You can obtain the keys from the dashboard app ([https://dashboard.paytm.com/next/apikeys](https://dashboard.paytm.com/next/apikeys))
 
 ```js
-const instance = new Razorpay({
+const instance = new Paytm({
   mid: 'YOUR_MID',
   key: 'YOUR_KEY_SECRET',
   isProduction: true | false,
