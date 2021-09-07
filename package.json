@@ -1,6 +1,6 @@
 {
   "name": "paytm-node-typescript",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/paytm.js",
   "scripts": {
@@ -8,8 +8,13 @@
     "build": "tsc",
     "test": "tsc && mocha ./test/**/*.spec.js"
   },
+  "homepage": "https://github.com/vikasg603/paytm-typescript",
   "author": "Vikas",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikasg603/paytm-typescript"
+  },
   "types": "dist/paytm.d.ts",
   "dependencies": {
     "axios": "^0.21.1"
